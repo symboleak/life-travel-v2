@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life Travel Cameroun - Agence de Tourisme Authentique & Sécurisée</title>
+    <meta name="description" content="Découvrez le Cameroun avec Life Travel. Excursions authentiques à Kribi, Mont Cameroun, Île de Manoka et plus. Agence agréée, sécurisée et professionnelle.">
+    <meta name="keywords" content="Tourisme Cameroun, Kribi, Manoka, Ekom Nkam, Agence voyage Douala, Excursion sécurisée, Life Travel">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                green: '#1A4731', // Vert forêt profond (Cameroun nature)
+                gold: '#D4AF37',  // Doré (Prestige/Sable)
+                light: '#F9F7F2', // Blanc cassé (Papier/Sable clair)
+                dark: '#1F2937',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #F9F7F2;
+        color: #1F2937;
+      }
+      .hero-gradient {
+        background: linear-gradient(rgba(26, 71, 49, 0.7), rgba(26, 71, 49, 0.4));
+      }
+      img {
+        content-visibility: auto;
+      }
+      /* Animation douce pour l'apparition des éléments */
+      .fade-in-up {
+        animation: fadeInUp 0.5s ease-out forwards;
+      }
+      @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      /* Masquer la scrollbar tout en gardant le scroll (Chrome, Safari, Opera) */
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      /* Masquer la scrollbar (IE, Edge, Firefox) */
+      .hide-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
